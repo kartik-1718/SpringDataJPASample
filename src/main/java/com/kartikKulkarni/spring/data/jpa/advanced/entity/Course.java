@@ -25,7 +25,7 @@ public class Course {
     )
     @GeneratedValue(
 
-            strategy = GenerationType.SEQUENCE,
+            strategy = GenerationType.AUTO,
             generator = "course_sequence"
     )
     private Long courseId;
